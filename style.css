@@ -31,25 +31,25 @@ body {
 }
 
 /* تعيين الصور لكل صفحة */
-#page1::before { background-image: url('images/images11.jpg'); }
-#page2::before { background-image: url('images/picto.jpg'); }
-#page3::before { background-image: url('images/apple.jpeg'); }
-#page4::before { background-image: url('images/rahool.png'); }
-#page5::before { background-image: url('images/butter.jpeg'); }
-#page6::before { background-image: url('images/moon.jpeg'); }
-#page7::before { background-image: url('images/comp.jpg'); }
-#page8::before { background-image: url('images/wow.jpeg'); }
-#page9::before { background-image: url('images/onemore.png'); }
-#page10::before { background-image: url('images/aloni.jpg'); }
-#page11::before { background-image: url('images/hi.jpeg'); }
-#page12::before { background-image: url('images/coc.jpg'); }
-#page13::before { background-image: url('images/hehe.jpg'); }
-#page14::before { background-image: url('images/meta.jpeg'); }
-#page15::before { background-image: url('images/Saudi.jpg'); }
-#page16::before { background-image: url('images/alone.jpg'); }
-#page17::before { background-image: url('images/bimventures.jpeg'); }
-#page18::before { background-image: url('images/koko.jpg'); }
-#page19::before { background-image: url('images/piki.jpg'); }
+#page1::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/images11.jpg'); }
+#page2::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/picto.jpg'); }
+#page3::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/apple.jpeg'); }
+#page4::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/rahool.png'); }
+#page5::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/butter.jpeg'); }
+#page6::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/moon.jpeg'); }
+#page7::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/comp.jpg'); }
+#page8::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/wow.jpeg'); }
+#page9::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/onemore.png'); }
+#page10::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/aloni.jpg'); }
+#page11::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/hi.jpeg'); }
+#page12::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/coc.jpg'); }
+#page13::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/hehe.jpg'); }
+#page14::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/meta.jpeg'); }
+#page15::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/Saudi.jpg'); }
+#page16::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/alone.jpg'); }
+#page17::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/bimventures.jpeg'); }
+#page18::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/koko.jpg'); }
+#page19::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/piki.jpg'); }
 
 .page.hidden {
     display: none;
