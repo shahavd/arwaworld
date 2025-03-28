@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+/* تعيين الصور لكل صفحة */
+#page1::before { background-image: url('images/images11.jpg'); }
+#page2::before { background-image: url('images/picto.jpg'); }
+#page3::before { background-image: url('images/apple.jpeg'); }
+#page4::before { background-image: url('images/rahool.png'); }
+#page5::before { background-image: url('images/butter.jpeg'); }
+#page6::before { background-image: url('images/moon.jpeg'); }
+#page7::before { background-image: url('images/comp.jpg'); }
+#page8::before { background-image: url('images/wow.jpeg'); }
+#page9::before { background-image: url('images/onemore.png'); }
+#page10::before { background-image: url('images/aloni.jpg'); }
+#page11::before { background-image: url('images/hi.jpeg'); }
+#page12::before { background-image: url('images/coc.jpg'); }
+#page13::before { background-image: url('images/hehe.jpg'); }
+#page14::before { background-image: url('images/meta.jpeg'); }
+#page15::before { background-image: url('images/Saudi.jpg'); }
+#page16::before { background-image: url('images/alone.jpg'); }
+#page17::before { background-image: url('images/bimventures.jpeg'); }
+#page18::before { background-image: url('images/koko.jpg'); }
+#page19::before { background-image: url('images/piki.jpg'); }
+
+.page.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+
+/* البلور الأسود */
+.page::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* شفافية 80% */
+    z-index: -1;
+}
