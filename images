@@ -1,1 +1,19 @@
-
+#page1::before { background-image: url('images/images11.jpg'); }
+#page2::before { background-image: url('images/picto.jpg'); }
+#page3::before { background-image: url('images/apple.jpg'); }
+#page4::before { background-image: url('images/rahool.jpg'); }
+#page5::before { background-image: url('images/butter.jpg'); }
+#page6::before { background-image: url('images/moon.jpg'); }
+#page7::before { background-image: url('images/comp.jpg'); }
+#page8::before { background-image: url('images/wow.jpg'); }
+#page9::before { background-image: url('images/onemore.jpg'); }
+#page10::before { background-image: url('images/aloni.jpg'); }
+#page11::before { background-image: url('images/hi.jpg'); }
+#page12::before { background-image: url('images/coc.jpg'); }
+#page13::before { background-image: url('images/hehe.jpg'); }
+#page14::before { background-image: url('images/meta.jpg'); }
+#page15::before { background-image: url('images/Saudi.jpg'); }
+#page16::before { background-image: url('images/alone.jpg'); }
+#page17::before { background-image: url('images/bimventures.jpg'); }
+#page18::before { background-image: url('images/koko.jpg'); }
+#page19::before { background-image: url('images/piki.jpg'); }
