@@ -34,7 +34,7 @@ body {
     z-index: -1;
 }
 
-#page1::before { background-image: url('images/images11.jpg'); }
+#page1::before { background-image: url(images11.jpg'); }
 #page1 h1 { content: "Welcome to Arwa’s World"; }
 #page1 p:nth-child(2) { content: "A journey of creativity, passion, and achievements."; }
 #page1 p:nth-child(3) { content: "This website is created to showcase Arwa's achievements and journey in the world of programming and game development. Made with love."; }
