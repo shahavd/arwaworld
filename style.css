@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
+    background-color: #000;
 }
 
 .page {
@@ -15,6 +16,9 @@ body {
     text-align: center;
     color: white;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .page::before {
@@ -30,26 +34,69 @@ body {
     z-index: -1;
 }
 
-/* تعيين الصور لكل صفحة */
-#page1::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/images11.jpg'); }
-#page2::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/picto.jpg'); }
-#page3::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/apple.jpeg'); }
-#page4::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/rahool.png'); }
-#page5::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/butter.jpeg'); }
-#page6::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/moon.jpeg'); }
-#page7::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/comp.jpg'); }
-#page8::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/wow.jpeg'); }
-#page9::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/onemore.png'); }
-#page10::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/aloni.jpg'); }
-#page11::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/hi.jpeg'); }
-#page12::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/coc.jpg'); }
-#page13::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/hehe.jpg'); }
-#page14::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/meta.jpeg'); }
-#page15::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/Saudi.jpg'); }
-#page16::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/alone.jpg'); }
-#page17::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/bimventures.jpeg'); }
-#page18::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/koko.jpg'); }
-#page19::before { background-image: url('https://github.com/shahavd/arwaworld/raw/main/images/piki.jpg'); }
+#page1::before { background-image: url('images/images11.jpg'); }
+#page1 h1 { content: "Welcome to Arwa’s World"; }
+#page1 p:nth-child(2) { content: "A journey of creativity, passion, and achievements."; }
+#page1 p:nth-child(3) { content: "This website is created to showcase Arwa's achievements and journey in the world of programming and game development. Made with love."; }
+
+#page2::before { background-image: url('images/picto.jpg'); }
+#page2 h1 { content: "She’s always searching for opportunities and loves to stay busy."; }
+#page2 p { content: "Passionate about game development, she decided to dive into the world of gaming and found the perfect one."; }
+
+#page3::before { background-image: url('images/apple.jpg'); }
+#page3 h1 { content: "Got in Apple Academy"; }
+
+#page4::before { background-image: url('images/rahool.jpg'); }
+#page4 h1 { content: "RAHOOL"; }
+#page4 p { content: "She created an app called 'Rahool' to teach programming in a simple and accessible way making learning easy and fun for everyone."; }
+
+#page5::before { background-image: url('images/butter.jpg'); }
+#page5 h1 { content: "Morpho Maze"; }
+#page5 p { content: "Created an app similar to 'Meez', featuring an interactive butterfly that responds to sound, adding a fun and engaging element to the experience."; }
+
+#page6::before { background-image: url('images/moon.jpg'); }
+#page6 h1 { content: "Meet the CEO of Apple or he is meeting her!"; }
+
+#page7::before { background-image: url('images/comp.jpg'); }
+#page7 h1 { content: "MISSION COMPLETED"; }
+
+#page8::before { background-image: url('images/wow.jpg'); }
+#page8 h1 { content: "GOT GRADUATION"; }
+
+#page9::before { background-image: url('images/onemore.jpg'); }
+#page9 h1 { content: "And one more thing"; }
+
+#page10::before { background-image: url('images/aloni.jpg'); }
+#page10 h1 { content: "She felt ready for more, so she began job hunting."; }
+
+#page11::before { background-image: url('images/hi.jpg'); }
+#page11 h1 { content: "FOUND"; }
+
+#page12::before { background-image: url('images/coc.jpg'); }
+#page12 h1 { content: "LET HER COOK"; }
+
+#page13::before { background-image: url('images/hehe.jpg'); }
+#page13 h1 { content: "VR Tennis Game"; }
+#page13 p { content: "VR tennis game with a view of Al-Ula"; }
+
+#page14::before { background-image: url('images/meta.jpg'); }
+#page14 h1 { content: "Her project was showcased at LEAP Expo"; }
+
+#page15::before { background-image: url('images/Saudi.jpg'); }
+#page15 h1 { content: "Conducted the national anthem choir at the AlUla Mirror Theatre, leading the band as the maestro, with AI also playing a role in the performance."; }
+
+#page16::before { background-image: url('images/alone.jpg'); }
+#page16 h1 { content: "Feels not enough"; }
+
+#page17::before { background-image: url('images/bimventures.jpg'); }
+#page17 h1 { content: "NEW JOB"; }
+#page17 p { content: "Venture Analyst"; }
+
+#page18::before { background-image: url('images/koko.jpg'); }
+#page18 h1 { content: "Arwa - Passionate programmer, game developer, AI enthusiast, and maestro. Leading creative projects with innovation and dedication."; }
+
+#page19::before { background-image: url('images/piki.jpg'); }
+#page19 h1 { content: "Arwa is graduating in May and is ready for something new and exciting."; }
 
 .page.hidden {
     display: none;
@@ -57,15 +104,17 @@ body {
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 5px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* البلور الأسود */
 .page::after {
     content: "";
     position: absolute;
@@ -73,6 +122,6 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8); /* شفافية 80% */
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
